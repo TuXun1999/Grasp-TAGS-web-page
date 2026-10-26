@@ -18,13 +18,13 @@
       fixedGraspCount: 2,
       poses: { "01": [0, 0], "02": [0, 0], "03": [0, 0], "04": [0, 1] },
     },
-    "cart-1": {
-      label: "Cart 1",
-      fixedGraspCount: 3,
-      poses: { "01": [1, 0], "02": [2, 2], "03": [2, 1], "04": [2, 0] },
-    },
     "cart-2": {
       label: "Cart 2",
+      fixedGraspCount: 3,
+      poses: { "01": [1, 0], "02": [0, 2], "03": [2, 1], "04": [2, 0] },
+    },
+    "cart-3": {
+      label: "Cart 3",
       fixedGraspCount: 3,
       poses: { "01": [0, 0], "02": [0, 2], "03": [1, 1], "04": [2, 0] },
     },
@@ -42,6 +42,21 @@
       label: "Chair 3",
       fixedGraspCount: 3,
       poses: { "01": [2, 0], "02": [2, 2], "03": [2, 1], "04": [2, 0] },
+    },
+    "walker-1": {
+      label: "Walker 1",
+      fixedGraspCount: 3,
+      poses: { "01": [2, 0], "02": [2, 2], "03": [1, 1], "04": [2, 0] },
+    },
+    "walker-2": {
+      label: "Walker 2",
+      fixedGraspCount: 3,
+      poses: { "01": [2, 0], "02": [1, 2], "03": [1, 1], "04": [1, 0] },
+    },
+    "walker-3": {
+      label: "Walker 3",
+      fixedGraspCount: 3,
+      poses: { "01": [0, 0], "02": [1, 2], "03": [1, 1], "04": [2, 0] },
     },
   };
 

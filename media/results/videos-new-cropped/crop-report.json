@@ -1,0 +1,1796 @@
+{
+  "reference_raw": "media/target-set-01-bucket-2-rollout-00-grasp_ranking-ranked-pose-1.mp4",
+  "reference_cropped": "media/results/synthetic_data/target-set-01-bucket-2-rollout-00-grasp_ranking-ranked-pose-1.mp4",
+  "original_dimensions": [
+    1280,
+    720
+  ],
+  "crop_dimensions": [
+    800,
+    450
+  ],
+  "crop_top_left": [
+    240,
+    134
+  ],
+  "retained_width_ratio": 0.625,
+  "retained_height_ratio": 0.625,
+  "retained_area_ratio": 0.390625,
+  "removed_pixels": {
+    "left": 240,
+    "right": 240,
+    "top": 134,
+    "bottom": 136
+  },
+  "ffmpeg_filter": "crop=800:450:240:134",
+  "encoding": {
+    "codec": "libx264",
+    "preset": "medium",
+    "crf": 18,
+    "pixel_format": "yuv420p",
+    "faststart": true
+  },
+  "raw_sources_preserved": true,
+  "videos": [
+    {
+      "source": "media/results/videos-new/target-set-01-cart-2-rollout-00-grasp_ranking-ranked-pose-1.mp4",
+      "output": "media/results/videos-new-cropped/target-set-01-cart-2-rollout-00-grasp_ranking-ranked-pose-1.mp4",
+      "source_sha256": "ce5d9666b2d302a4e44e5bb92e3b44b8524e5a084a31b46777942ac876f20a92",
+      "output_sha256": "2ac266d3404dd33392abe70869b4e70ebcab8457542f88cf9743734e959531a7",
+      "width": 800,
+      "height": 450,
+      "fps": 30.0,
+      "frames": 750,
+      "duration_seconds": 25.0,
+      "sample_frames": [
+        90,
+        375,
+        749
+      ],
+      "sample_mean_absolute_pixel_errors": [
+        0.529909,
+        0.465381,
+        0.47254
+      ],
+      "full_decode_verified": true
+    },
+    {
+      "source": "media/results/videos-new/target-set-01-cart-2-rollout-01-grasp_ranking-random-pose-0.mp4",
+      "output": "media/results/videos-new-cropped/target-set-01-cart-2-rollout-01-grasp_ranking-random-pose-0.mp4",
+      "source_sha256": "847553146a0ac2b21c4e4b99d75fcd816ee7c2ba08980784bfeea1f33850705f",
+      "output_sha256": "5e2b59bbab6596fae63bfed3aae0d9c2c0de95705c48364aa2d0e4d403c5f5c0",
+      "width": 800,
+      "height": 450,
+      "fps": 30.0,
+      "frames": 750,
+      "duration_seconds": 25.0,
+      "sample_frames": [
+        90,
+        375,
+        749
+      ],
+      "sample_mean_absolute_pixel_errors": [
+        0.477602,
+        0.475289,
+        0.571075
+      ],
+      "full_decode_verified": true
+    },
+    {
+      "source": "media/results/videos-new/target-set-01-cart-2-rollout-02-ppo0-fixed-pose-0.mp4",
+      "output": "media/results/videos-new-cropped/target-set-01-cart-2-rollout-02-ppo0-fixed-pose-0.mp4",
+      "source_sha256": "5e04aae566bce9a0fe6b498ec270387d9b3f3b65b6af4b2194b8e378ea0d002b",
+      "output_sha256": "48f6a2042d8539de827c6d3d2ed2aae74b9d471089c549a95c3c093114918ca0",
+      "width": 800,
+      "height": 450,
+      "fps": 30.0,
+      "frames": 750,
+      "duration_seconds": 25.0,
+      "sample_frames": [
+        90,
+        375,
+        749
+      ],
+      "sample_mean_absolute_pixel_errors": [
+        0.488321,
+        0.46093,
+        0.573156
+      ],
+      "full_decode_verified": true
+    },
+    {
+      "source": "media/results/videos-new/target-set-01-cart-2-rollout-03-ppo1-fixed-pose-1.mp4",
+      "output": "media/results/videos-new-cropped/target-set-01-cart-2-rollout-03-ppo1-fixed-pose-1.mp4",
+      "source_sha256": "30e1edcf1038936f7b0c821a405d32575cfcf6dcfd03c55a95260bed7d8e4937",
+      "output_sha256": "31965fa5e36aeb2e46069cdfbd2852e5cb924f390db07cb24112bba8cf464768",
+      "width": 800,
+      "height": 450,
+      "fps": 30.0,
+      "frames": 750,
+      "duration_seconds": 25.0,
+      "sample_frames": [
+        90,
+        375,
+        749
+      ],
+      "sample_mean_absolute_pixel_errors": [
+        0.45915,
+        0.453398,
+        0.48005
+      ],
+      "full_decode_verified": true
+    },
+    {
+      "source": "media/results/videos-new/target-set-01-cart-2-rollout-04-ppo2-fixed-pose-2.mp4",
+      "output": "media/results/videos-new-cropped/target-set-01-cart-2-rollout-04-ppo2-fixed-pose-2.mp4",
+      "source_sha256": "00830211c9a53a0139d34759170f587714945e482bbe01318d206e146dfca7d5",
+      "output_sha256": "0d4e1612f245efd1fe0f0ca74ea5112d813164661ed6e30e283fc10bef74de10",
+      "width": 800,
+      "height": 450,
+      "fps": 30.0,
+      "frames": 750,
+      "duration_seconds": 25.0,
+      "sample_frames": [
+        90,
+        375,
+        749
+      ],
+      "sample_mean_absolute_pixel_errors": [
+        0.460737,
+        0.468106,
+        0.540503
+      ],
+      "full_decode_verified": true
+    },
+    {
+      "source": "media/results/videos-new/target-set-01-walker-1-rollout-00-grasp_ranking-ranked-pose-2.mp4",
+      "output": "media/results/videos-new-cropped/target-set-01-walker-1-rollout-00-grasp_ranking-ranked-pose-2.mp4",
+      "source_sha256": "67106f6b808d7792b01f4dd912fbc1819ac24b53c57bb42309976928837e0491",
+      "output_sha256": "3d703c513ef052ff9161050cba65f92862700d96955d22171160405a6e62b310",
+      "width": 800,
+      "height": 450,
+      "fps": 30.0,
+      "frames": 750,
+      "duration_seconds": 25.0,
+      "sample_frames": [
+        90,
+        375,
+        749
+      ],
+      "sample_mean_absolute_pixel_errors": [
+        0.545406,
+        0.409865,
+        0.472441
+      ],
+      "full_decode_verified": true
+    },
+    {
+      "source": "media/results/videos-new/target-set-01-walker-1-rollout-01-grasp_ranking-random-pose-0.mp4",
+      "output": "media/results/videos-new-cropped/target-set-01-walker-1-rollout-01-grasp_ranking-random-pose-0.mp4",
+      "source_sha256": "7f75ea49d89d598ea143caea3b211d547ded4f0db78bac3223c4ec699a26e2d2",
+      "output_sha256": "cac1ed844bc576e4dde43427dde92b8e3f3a7e4f8874d07b630288ae36cea196",
+      "width": 800,
+      "height": 450,
+      "fps": 30.0,
+      "frames": 750,
+      "duration_seconds": 25.0,
+      "sample_frames": [
+        90,
+        375,
+        749
+      ],
+      "sample_mean_absolute_pixel_errors": [
+        0.443165,
+        0.453256,
+        0.499582
+      ],
+      "full_decode_verified": true
+    },
+    {
+      "source": "media/results/videos-new/target-set-01-walker-1-rollout-02-ppo0-fixed-pose-0.mp4",
+      "output": "media/results/videos-new-cropped/target-set-01-walker-1-rollout-02-ppo0-fixed-pose-0.mp4",
+      "source_sha256": "21a46691b4bb1434fd0be98243c2e7a0f7f4e540eda59c0f78486346a34c38cf",
+      "output_sha256": "0934ce908a935bdd1e60a44ae1a9e42fcca318aa2865fa8923cb39cdb72735e1",
+      "width": 800,
+      "height": 450,
+      "fps": 30.0,
+      "frames": 750,
+      "duration_seconds": 25.0,
+      "sample_frames": [
+        90,
+        375,
+        749
+      ],
+      "sample_mean_absolute_pixel_errors": [
+        0.447875,
+        0.440317,
+        0.47065
+      ],
+      "full_decode_verified": true
+    },
+    {
+      "source": "media/results/videos-new/target-set-01-walker-1-rollout-03-ppo1-fixed-pose-1.mp4",
+      "output": "media/results/videos-new-cropped/target-set-01-walker-1-rollout-03-ppo1-fixed-pose-1.mp4",
+      "source_sha256": "dc87d04857c11d6d20ca9e26eb6f03d055070863d467f9b22f7228ca2b7eaf88",
+      "output_sha256": "fc37fef54105abe4e44de0a6625d80b8b9095c8331949991f6d2bcfa5adbf524",
+      "width": 800,
+      "height": 450,
+      "fps": 30.0,
+      "frames": 750,
+      "duration_seconds": 25.0,
+      "sample_frames": [
+        90,
+        375,
+        749
+      ],
+      "sample_mean_absolute_pixel_errors": [
+        0.442984,
+        0.465001,
+        0.484216
+      ],
+      "full_decode_verified": true
+    },
+    {
+      "source": "media/results/videos-new/target-set-01-walker-1-rollout-04-ppo2-fixed-pose-2.mp4",
+      "output": "media/results/videos-new-cropped/target-set-01-walker-1-rollout-04-ppo2-fixed-pose-2.mp4",
+      "source_sha256": "d6e70cec11435304d28e914e607c852f3d88a131ce389b55952f0d66c4eb93bd",
+      "output_sha256": "c6f5539a54b391c95dde6af6a0a39afae52e6c615426602fac0d30d5d6c834a7",
+      "width": 800,
+      "height": 450,
+      "fps": 30.0,
+      "frames": 750,
+      "duration_seconds": 25.0,
+      "sample_frames": [
+        90,
+        375,
+        749
+      ],
+      "sample_mean_absolute_pixel_errors": [
+        0.473274,
+        0.423918,
+        0.443145
+      ],
+      "full_decode_verified": true
+    },
+    {
+      "source": "media/results/videos-new/target-set-01-walker-2-rollout-00-grasp_ranking-ranked-pose-2.mp4",
+      "output": "media/results/videos-new-cropped/target-set-01-walker-2-rollout-00-grasp_ranking-ranked-pose-2.mp4",
+      "source_sha256": "172e681f92626d7c6f0db70e5829d018740d55e91e6437a673c78aa344a83aec",
+      "output_sha256": "fdf108f312bde85509c9b2db4bbe872227480210e2d50e4d609e4303992cc860",
+      "width": 800,
+      "height": 450,
+      "fps": 30.0,
+      "frames": 750,
+      "duration_seconds": 25.0,
+      "sample_frames": [
+        90,
+        375,
+        749
+      ],
+      "sample_mean_absolute_pixel_errors": [
+        0.554765,
+        0.401888,
+        0.441403
+      ],
+      "full_decode_verified": true
+    },
+    {
+      "source": "media/results/videos-new/target-set-01-walker-2-rollout-01-grasp_ranking-random-pose-0.mp4",
+      "output": "media/results/videos-new-cropped/target-set-01-walker-2-rollout-01-grasp_ranking-random-pose-0.mp4",
+      "source_sha256": "6c02c7de5dced225aee229c70b2bc161644b04a58a117ce87311a008eab518b2",
+      "output_sha256": "11432d52b60af6c842cc7ed245bca3aa2c126b85b5b130daf7af2a80b398f9cf",
+      "width": 800,
+      "height": 450,
+      "fps": 30.0,
+      "frames": 750,
+      "duration_seconds": 25.0,
+      "sample_frames": [
+        90,
+        375,
+        749
+      ],
+      "sample_mean_absolute_pixel_errors": [
+        0.431011,
+        0.459774,
+        0.490417
+      ],
+      "full_decode_verified": true
+    },
+    {
+      "source": "media/results/videos-new/target-set-01-walker-2-rollout-02-ppo0-fixed-pose-0.mp4",
+      "output": "media/results/videos-new-cropped/target-set-01-walker-2-rollout-02-ppo0-fixed-pose-0.mp4",
+      "source_sha256": "9b2763cfaff7f4a3a1aa027c946f09350eca42afd06e3e55a380e3b6f9dd833a",
+      "output_sha256": "2b1ee6e60c60750645e7daff72c20e8df50809cde2ec38fc38d6aa22ca93cc30",
+      "width": 800,
+      "height": 450,
+      "fps": 30.0,
+      "frames": 750,
+      "duration_seconds": 25.0,
+      "sample_frames": [
+        90,
+        375,
+        749
+      ],
+      "sample_mean_absolute_pixel_errors": [
+        0.435214,
+        0.43013,
+        0.467571
+      ],
+      "full_decode_verified": true
+    },
+    {
+      "source": "media/results/videos-new/target-set-01-walker-2-rollout-03-ppo1-fixed-pose-1.mp4",
+      "output": "media/results/videos-new-cropped/target-set-01-walker-2-rollout-03-ppo1-fixed-pose-1.mp4",
+      "source_sha256": "478a45cb5f7ccc65b6dc29bd1ce092f020d407686e30ec7da4fa93b6282d2225",
+      "output_sha256": "2b22322010b51389c2a89a3e8ff36959c07309340db84d04207df9e521341766",
+      "width": 800,
+      "height": 450,
+      "fps": 30.0,
+      "frames": 750,
+      "duration_seconds": 25.0,
+      "sample_frames": [
+        90,
+        375,
+        749
+      ],
+      "sample_mean_absolute_pixel_errors": [
+        0.443057,
+        0.431716,
+        0.462902
+      ],
+      "full_decode_verified": true
+    },
+    {
+      "source": "media/results/videos-new/target-set-01-walker-2-rollout-04-ppo2-fixed-pose-2.mp4",
+      "output": "media/results/videos-new-cropped/target-set-01-walker-2-rollout-04-ppo2-fixed-pose-2.mp4",
+      "source_sha256": "e4f46a7d2b2844a28459d7c7191176c3b85b26b781c1b6a2ce84f201b76f309d",
+      "output_sha256": "b127aef39f807124d347b4d40aa37a930895df2f570f5c9107d5c58769f8a9e1",
+      "width": 800,
+      "height": 450,
+      "fps": 30.0,
+      "frames": 750,
+      "duration_seconds": 25.0,
+      "sample_frames": [
+        90,
+        375,
+        749
+      ],
+      "sample_mean_absolute_pixel_errors": [
+        0.466863,
+        0.405308,
+        0.430977
+      ],
+      "full_decode_verified": true
+    },
+    {
+      "source": "media/results/videos-new/target-set-01-walker-3-rollout-00-grasp_ranking-ranked-pose-0.mp4",
+      "output": "media/results/videos-new-cropped/target-set-01-walker-3-rollout-00-grasp_ranking-ranked-pose-0.mp4",
+      "source_sha256": "457174d8cf0e1a5f43109da006ca67d67c84788c7e1bbe974ab6e8fafc4dd32e",
+      "output_sha256": "abc5c3dbff5d8d8bd8de317389ed75242c30888e057ec823dd3512289e970694",
+      "width": 800,
+      "height": 450,
+      "fps": 30.0,
+      "frames": 750,
+      "duration_seconds": 25.0,
+      "sample_frames": [
+        90,
+        375,
+        749
+      ],
+      "sample_mean_absolute_pixel_errors": [
+        0.469481,
+        0.424979,
+        0.47187
+      ],
+      "full_decode_verified": true
+    },
+    {
+      "source": "media/results/videos-new/target-set-01-walker-3-rollout-01-grasp_ranking-random-pose-0.mp4",
+      "output": "media/results/videos-new-cropped/target-set-01-walker-3-rollout-01-grasp_ranking-random-pose-0.mp4",
+      "source_sha256": "c0080931efb964616d26d925d36fd83ec4efa222a271b845cbc996d1f8adb4de",
+      "output_sha256": "957f4ea9f55fe1ade3175664e88323acd69094bfbdc24a69f0cd4e26358c8853",
+      "width": 800,
+      "height": 450,
+      "fps": 30.0,
+      "frames": 750,
+      "duration_seconds": 25.0,
+      "sample_frames": [
+        90,
+        375,
+        749
+      ],
+      "sample_mean_absolute_pixel_errors": [
+        0.428092,
+        0.432732,
+        0.480697
+      ],
+      "full_decode_verified": true
+    },
+    {
+      "source": "media/results/videos-new/target-set-01-walker-3-rollout-02-ppo0-fixed-pose-0.mp4",
+      "output": "media/results/videos-new-cropped/target-set-01-walker-3-rollout-02-ppo0-fixed-pose-0.mp4",
+      "source_sha256": "e58a66de9b9d357e3d8ea2b2e24bc71264242fa884de9e626a1a5d5c14bad6be",
+      "output_sha256": "5552fdf55498114a6d46a71a15dc9998a96bffb446e35a58515d3673914fd2bd",
+      "width": 800,
+      "height": 450,
+      "fps": 30.0,
+      "frames": 750,
+      "duration_seconds": 25.0,
+      "sample_frames": [
+        90,
+        375,
+        749
+      ],
+      "sample_mean_absolute_pixel_errors": [
+        0.444936,
+        0.42984,
+        0.477102
+      ],
+      "full_decode_verified": true
+    },
+    {
+      "source": "media/results/videos-new/target-set-01-walker-3-rollout-03-ppo1-fixed-pose-1.mp4",
+      "output": "media/results/videos-new-cropped/target-set-01-walker-3-rollout-03-ppo1-fixed-pose-1.mp4",
+      "source_sha256": "23b0ec52b9e5b974c9827a203e5f2ce0dde350e6d68d7dbf8e35722d8f79f8c0",
+      "output_sha256": "0dee74427b3db6ee4e2e6a73fb540a11a5657995c5f5293bdee3d68f5b006a1c",
+      "width": 800,
+      "height": 450,
+      "fps": 30.0,
+      "frames": 750,
+      "duration_seconds": 25.0,
+      "sample_frames": [
+        90,
+        375,
+        749
+      ],
+      "sample_mean_absolute_pixel_errors": [
+        0.443954,
+        0.423494,
+        0.50626
+      ],
+      "full_decode_verified": true
+    },
+    {
+      "source": "media/results/videos-new/target-set-01-walker-3-rollout-04-ppo2-fixed-pose-2.mp4",
+      "output": "media/results/videos-new-cropped/target-set-01-walker-3-rollout-04-ppo2-fixed-pose-2.mp4",
+      "source_sha256": "5a35d08deacb0779b09f42ef3c2bfa706b76e85a571cd14bacc9a0e5319aa793",
+      "output_sha256": "85474021eb308638104825233e3f5c7339a6e4cfc59ad74bf13b989d1b1c48f0",
+      "width": 800,
+      "height": 450,
+      "fps": 30.0,
+      "frames": 750,
+      "duration_seconds": 25.0,
+      "sample_frames": [
+        90,
+        375,
+        749
+      ],
+      "sample_mean_absolute_pixel_errors": [
+        0.473135,
+        0.412988,
+        0.437888
+      ],
+      "full_decode_verified": true
+    },
+    {
+      "source": "media/results/videos-new/target-set-02-cart-2-rollout-00-grasp_ranking-ranked-pose-0.mp4",
+      "output": "media/results/videos-new-cropped/target-set-02-cart-2-rollout-00-grasp_ranking-ranked-pose-0.mp4",
+      "source_sha256": "3ab5492205ba4d176a8241d886d77ae174ab7d78be7c131761f8ec2ef1bd2d3b",
+      "output_sha256": "ed63153774dbff6580db2cc1171e67106d75411ef27bd6166c2718717c392f1c",
+      "width": 800,
+      "height": 450,
+      "fps": 30.0,
+      "frames": 750,
+      "duration_seconds": 25.0,
+      "sample_frames": [
+        90,
+        375,
+        749
+      ],
+      "sample_mean_absolute_pixel_errors": [
+        0.570067,
+        0.463835,
+        0.491523
+      ],
+      "full_decode_verified": true
+    },
+    {
+      "source": "media/results/videos-new/target-set-02-cart-2-rollout-01-grasp_ranking-random-pose-2.mp4",
+      "output": "media/results/videos-new-cropped/target-set-02-cart-2-rollout-01-grasp_ranking-random-pose-2.mp4",
+      "source_sha256": "3bcde31d203d743704123aa1ccfe71e743532285d0ce4e3b5c8152cbe4cf02ed",
+      "output_sha256": "08a8364d951f653c48e8ab9619c279dbd6cdff2e7ad501f9c178bdc68b21188e",
+      "width": 800,
+      "height": 450,
+      "fps": 30.0,
+      "frames": 750,
+      "duration_seconds": 25.0,
+      "sample_frames": [
+        90,
+        375,
+        749
+      ],
+      "sample_mean_absolute_pixel_errors": [
+        0.483624,
+        0.477532,
+        0.490374
+      ],
+      "full_decode_verified": true
+    },
+    {
+      "source": "media/results/videos-new/target-set-02-cart-2-rollout-02-ppo0-fixed-pose-0.mp4",
+      "output": "media/results/videos-new-cropped/target-set-02-cart-2-rollout-02-ppo0-fixed-pose-0.mp4",
+      "source_sha256": "d3d7b902a92ed3cc38069858bf009971e558f98adeb46073e4e753a2db4b83d6",
+      "output_sha256": "2623caa8b257b1bb8d4a80b4488fc3f8e58d0e0b03c43b9092d67cd9891909ff",
+      "width": 800,
+      "height": 450,
+      "fps": 30.0,
+      "frames": 750,
+      "duration_seconds": 25.0,
+      "sample_frames": [
+        90,
+        375,
+        749
+      ],
+      "sample_mean_absolute_pixel_errors": [
+        0.515009,
+        0.461996,
+        0.477766
+      ],
+      "full_decode_verified": true
+    },
+    {
+      "source": "media/results/videos-new/target-set-02-cart-2-rollout-03-ppo1-fixed-pose-1.mp4",
+      "output": "media/results/videos-new-cropped/target-set-02-cart-2-rollout-03-ppo1-fixed-pose-1.mp4",
+      "source_sha256": "d5280e0beebe36b0f0bd3f9d9e485f5af8c2e968193648aa86ee08480059b04c",
+      "output_sha256": "8ad23d1d04b9f0719d4e1b235e546c3307de48b801528fbab43d785f73eb2357",
+      "width": 800,
+      "height": 450,
+      "fps": 30.0,
+      "frames": 750,
+      "duration_seconds": 25.0,
+      "sample_frames": [
+        90,
+        375,
+        749
+      ],
+      "sample_mean_absolute_pixel_errors": [
+        0.465771,
+        0.414686,
+        0.525831
+      ],
+      "full_decode_verified": true
+    },
+    {
+      "source": "media/results/videos-new/target-set-02-cart-2-rollout-04-ppo2-fixed-pose-2.mp4",
+      "output": "media/results/videos-new-cropped/target-set-02-cart-2-rollout-04-ppo2-fixed-pose-2.mp4",
+      "source_sha256": "d95fe4417fde2110989eef0436ee7b9f3e5286e61e0b0922467b4e7dac2d629a",
+      "output_sha256": "d3cf47f445c4c2f66b63120c5a124adb8a731bda99d5e0b1a1b37c7ddba230d6",
+      "width": 800,
+      "height": 450,
+      "fps": 30.0,
+      "frames": 750,
+      "duration_seconds": 25.0,
+      "sample_frames": [
+        90,
+        375,
+        749
+      ],
+      "sample_mean_absolute_pixel_errors": [
+        0.483522,
+        0.45649,
+        0.501149
+      ],
+      "full_decode_verified": true
+    },
+    {
+      "source": "media/results/videos-new/target-set-02-walker-1-rollout-00-grasp_ranking-ranked-pose-2.mp4",
+      "output": "media/results/videos-new-cropped/target-set-02-walker-1-rollout-00-grasp_ranking-ranked-pose-2.mp4",
+      "source_sha256": "455fa28caa839c635407f0e58e8fe5df79d232b1cf78014e04c21afce7f3b6d8",
+      "output_sha256": "9f2e46b743753e7b73b8ff636da7e50e8f254c80eba690993c3dbb30ce79f05d",
+      "width": 800,
+      "height": 450,
+      "fps": 30.0,
+      "frames": 750,
+      "duration_seconds": 25.0,
+      "sample_frames": [
+        90,
+        375,
+        749
+      ],
+      "sample_mean_absolute_pixel_errors": [
+        0.528626,
+        0.421231,
+        0.490918
+      ],
+      "full_decode_verified": true
+    },
+    {
+      "source": "media/results/videos-new/target-set-02-walker-1-rollout-01-grasp_ranking-random-pose-2.mp4",
+      "output": "media/results/videos-new-cropped/target-set-02-walker-1-rollout-01-grasp_ranking-random-pose-2.mp4",
+      "source_sha256": "6f26dea2d3439cd27eab50174b27fffa440c4da8f1330c20008a8a5eb79ab077",
+      "output_sha256": "886633c6ca84bf7fe4c4525a891a204c5d22ac57964ce888600696385d9c1315",
+      "width": 800,
+      "height": 450,
+      "fps": 30.0,
+      "frames": 750,
+      "duration_seconds": 25.0,
+      "sample_frames": [
+        90,
+        375,
+        749
+      ],
+      "sample_mean_absolute_pixel_errors": [
+        0.45407,
+        0.440124,
+        0.489422
+      ],
+      "full_decode_verified": true
+    },
+    {
+      "source": "media/results/videos-new/target-set-02-walker-1-rollout-02-ppo0-fixed-pose-0.mp4",
+      "output": "media/results/videos-new-cropped/target-set-02-walker-1-rollout-02-ppo0-fixed-pose-0.mp4",
+      "source_sha256": "41a7e2d834ca6e117fa38af9e1e4c42e6b9d3e272306bb157a6b89ef9ee0e8b1",
+      "output_sha256": "c59bc9e1e5c71697c1c01ed2d095f4ab44f410a3199882263ee5a89624447888",
+      "width": 800,
+      "height": 450,
+      "fps": 30.0,
+      "frames": 750,
+      "duration_seconds": 25.0,
+      "sample_frames": [
+        90,
+        375,
+        749
+      ],
+      "sample_mean_absolute_pixel_errors": [
+        0.427591,
+        0.402543,
+        0.48285
+      ],
+      "full_decode_verified": true
+    },
+    {
+      "source": "media/results/videos-new/target-set-02-walker-1-rollout-03-ppo1-fixed-pose-1.mp4",
+      "output": "media/results/videos-new-cropped/target-set-02-walker-1-rollout-03-ppo1-fixed-pose-1.mp4",
+      "source_sha256": "4eb2a3b85a63fbec59e2a124839caa7a25d532807ca08fcca1bfbb7c8ad785bb",
+      "output_sha256": "5df779affe9f85559f2c350082b09fc35d992e277c15af68a759ce2fb4b824f9",
+      "width": 800,
+      "height": 450,
+      "fps": 30.0,
+      "frames": 750,
+      "duration_seconds": 25.0,
+      "sample_frames": [
+        90,
+        375,
+        749
+      ],
+      "sample_mean_absolute_pixel_errors": [
+        0.469956,
+        0.453211,
+        0.450863
+      ],
+      "full_decode_verified": true
+    },
+    {
+      "source": "media/results/videos-new/target-set-02-walker-1-rollout-04-ppo2-fixed-pose-2.mp4",
+      "output": "media/results/videos-new-cropped/target-set-02-walker-1-rollout-04-ppo2-fixed-pose-2.mp4",
+      "source_sha256": "ef18f9b6026048f58c27c90362713ca60514c56e589f54e65a5ab8e2a9a2e2b2",
+      "output_sha256": "c3a64ccae18ff41188a78ba0203f869d5c49d723f6397fc5ca36047c88019c32",
+      "width": 800,
+      "height": 450,
+      "fps": 30.0,
+      "frames": 750,
+      "duration_seconds": 25.0,
+      "sample_frames": [
+        90,
+        375,
+        749
+      ],
+      "sample_mean_absolute_pixel_errors": [
+        0.506739,
+        0.423328,
+        0.483088
+      ],
+      "full_decode_verified": true
+    },
+    {
+      "source": "media/results/videos-new/target-set-02-walker-2-rollout-00-grasp_ranking-ranked-pose-1.mp4",
+      "output": "media/results/videos-new-cropped/target-set-02-walker-2-rollout-00-grasp_ranking-ranked-pose-1.mp4",
+      "source_sha256": "be538dff5026f043353c5b51b05a249fb7ba373ef4f5f4365e7b48d81f95b533",
+      "output_sha256": "90300974bd9fde24b5c422bc0eea058564433a5ec4e27a1cd882fdf9791ab939",
+      "width": 800,
+      "height": 450,
+      "fps": 30.0,
+      "frames": 750,
+      "duration_seconds": 25.0,
+      "sample_frames": [
+        90,
+        375,
+        749
+      ],
+      "sample_mean_absolute_pixel_errors": [
+        0.521821,
+        0.452662,
+        0.47838
+      ],
+      "full_decode_verified": true
+    },
+    {
+      "source": "media/results/videos-new/target-set-02-walker-2-rollout-01-grasp_ranking-random-pose-2.mp4",
+      "output": "media/results/videos-new-cropped/target-set-02-walker-2-rollout-01-grasp_ranking-random-pose-2.mp4",
+      "source_sha256": "0b4824c3e6b877bd5e6e0bcdfe86f6848e03b3014b571b1fa02ccd075e0eea3e",
+      "output_sha256": "2638f5b7c49defadf6d33b666b108ff558c5bff034e5667c02195c4ceb600d8b",
+      "width": 800,
+      "height": 450,
+      "fps": 30.0,
+      "frames": 750,
+      "duration_seconds": 25.0,
+      "sample_frames": [
+        90,
+        375,
+        749
+      ],
+      "sample_mean_absolute_pixel_errors": [
+        0.463191,
+        0.421386,
+        0.458226
+      ],
+      "full_decode_verified": true
+    },
+    {
+      "source": "media/results/videos-new/target-set-02-walker-2-rollout-02-ppo0-fixed-pose-0.mp4",
+      "output": "media/results/videos-new-cropped/target-set-02-walker-2-rollout-02-ppo0-fixed-pose-0.mp4",
+      "source_sha256": "300a6d36cedd0884a0f50831fe5a636db397abb6985884526f00a372d7f6fd5f",
+      "output_sha256": "ddbcef3a1cf04969b05dc616ebbd2891215adf01cff60bc163303dad207d4df2",
+      "width": 800,
+      "height": 450,
+      "fps": 30.0,
+      "frames": 750,
+      "duration_seconds": 25.0,
+      "sample_frames": [
+        90,
+        375,
+        749
+      ],
+      "sample_mean_absolute_pixel_errors": [
+        0.424258,
+        0.406031,
+        0.418827
+      ],
+      "full_decode_verified": true
+    },
+    {
+      "source": "media/results/videos-new/target-set-02-walker-2-rollout-03-ppo1-fixed-pose-1.mp4",
+      "output": "media/results/videos-new-cropped/target-set-02-walker-2-rollout-03-ppo1-fixed-pose-1.mp4",
+      "source_sha256": "b27573f08564d0178ceffce4ae6c4da3c0386c39e3e10a541d4c8bac3324dba3",
+      "output_sha256": "fe0265452d16b705b6fbc59b1c758c45475464531d41f035d170e0f3f0375afd",
+      "width": 800,
+      "height": 450,
+      "fps": 30.0,
+      "frames": 750,
+      "duration_seconds": 25.0,
+      "sample_frames": [
+        90,
+        375,
+        749
+      ],
+      "sample_mean_absolute_pixel_errors": [
+        0.459222,
+        0.450745,
+        0.474247
+      ],
+      "full_decode_verified": true
+    },
+    {
+      "source": "media/results/videos-new/target-set-02-walker-2-rollout-04-ppo2-fixed-pose-2.mp4",
+      "output": "media/results/videos-new-cropped/target-set-02-walker-2-rollout-04-ppo2-fixed-pose-2.mp4",
+      "source_sha256": "b754acc4b445e8d427d3caadd3351c0e2e05882125409173ee28c2b9a8682da4",
+      "output_sha256": "8cf8a1eb8a01c8f3a701d3035ddb236f79ec48f072b9ffe0790e63b79e66d11c",
+      "width": 800,
+      "height": 450,
+      "fps": 30.0,
+      "frames": 750,
+      "duration_seconds": 25.0,
+      "sample_frames": [
+        90,
+        375,
+        749
+      ],
+      "sample_mean_absolute_pixel_errors": [
+        0.488671,
+        0.445576,
+        0.457139
+      ],
+      "full_decode_verified": true
+    },
+    {
+      "source": "media/results/videos-new/target-set-02-walker-3-rollout-00-grasp_ranking-ranked-pose-1.mp4",
+      "output": "media/results/videos-new-cropped/target-set-02-walker-3-rollout-00-grasp_ranking-ranked-pose-1.mp4",
+      "source_sha256": "693ab2b381776ad37581403c3cc6124e40909074af96d8e41d0dbcb63403dddb",
+      "output_sha256": "7f8b79e9a971895aa9d950837fcb04738c7c728962e69f7f6e7063f894008fdc",
+      "width": 800,
+      "height": 450,
+      "fps": 30.0,
+      "frames": 750,
+      "duration_seconds": 25.0,
+      "sample_frames": [
+        90,
+        375,
+        749
+      ],
+      "sample_mean_absolute_pixel_errors": [
+        0.496933,
+        0.456531,
+        0.503658
+      ],
+      "full_decode_verified": true
+    },
+    {
+      "source": "media/results/videos-new/target-set-02-walker-3-rollout-01-grasp_ranking-random-pose-2.mp4",
+      "output": "media/results/videos-new-cropped/target-set-02-walker-3-rollout-01-grasp_ranking-random-pose-2.mp4",
+      "source_sha256": "1166f5fa99a271c64038db4b4a200a888405a0d1805b189cb7fa0206e1823ee7",
+      "output_sha256": "7ff0b8d5478c4cb0a7e4cf2b195210e7204d9f66dda6a4de3ae30959ed3c2738",
+      "width": 800,
+      "height": 450,
+      "fps": 30.0,
+      "frames": 750,
+      "duration_seconds": 25.0,
+      "sample_frames": [
+        90,
+        375,
+        749
+      ],
+      "sample_mean_absolute_pixel_errors": [
+        0.481467,
+        0.441517,
+        0.477339
+      ],
+      "full_decode_verified": true
+    },
+    {
+      "source": "media/results/videos-new/target-set-02-walker-3-rollout-02-ppo0-fixed-pose-0.mp4",
+      "output": "media/results/videos-new-cropped/target-set-02-walker-3-rollout-02-ppo0-fixed-pose-0.mp4",
+      "source_sha256": "1342ab9111c9593465f43840d2eb92fd56eb9fb8827d675c4ce62715ba8ffec3",
+      "output_sha256": "71e937153ca8e8da5f6b2b4a7229b4744680476c1ef8e9bcf056efbf9e944311",
+      "width": 800,
+      "height": 450,
+      "fps": 30.0,
+      "frames": 750,
+      "duration_seconds": 25.0,
+      "sample_frames": [
+        90,
+        375,
+        749
+      ],
+      "sample_mean_absolute_pixel_errors": [
+        0.426494,
+        0.37308,
+        0.472339
+      ],
+      "full_decode_verified": true
+    },
+    {
+      "source": "media/results/videos-new/target-set-02-walker-3-rollout-03-ppo1-fixed-pose-1.mp4",
+      "output": "media/results/videos-new-cropped/target-set-02-walker-3-rollout-03-ppo1-fixed-pose-1.mp4",
+      "source_sha256": "274a6206e5c7e84a746f4246ef6b7697922e478eb1f83cba5f7478e4513dfe1b",
+      "output_sha256": "c4b1b4edd66b9328dcd6e7fcdcc3cdc92b54cb42c127d99134f03ba941350a55",
+      "width": 800,
+      "height": 450,
+      "fps": 30.0,
+      "frames": 750,
+      "duration_seconds": 25.0,
+      "sample_frames": [
+        90,
+        375,
+        749
+      ],
+      "sample_mean_absolute_pixel_errors": [
+        0.45291,
+        0.45204,
+        0.471402
+      ],
+      "full_decode_verified": true
+    },
+    {
+      "source": "media/results/videos-new/target-set-02-walker-3-rollout-04-ppo2-fixed-pose-2.mp4",
+      "output": "media/results/videos-new-cropped/target-set-02-walker-3-rollout-04-ppo2-fixed-pose-2.mp4",
+      "source_sha256": "2ac2f13783c2c8803891ec7efd534983d8b68d61d9fcff6ce758324585724f3c",
+      "output_sha256": "67a561d79cc9eb9880594c2f3e6b34446ee77c7767f47012a3e161040c6a573b",
+      "width": 800,
+      "height": 450,
+      "fps": 30.0,
+      "frames": 750,
+      "duration_seconds": 25.0,
+      "sample_frames": [
+        90,
+        375,
+        749
+      ],
+      "sample_mean_absolute_pixel_errors": [
+        0.462206,
+        0.443755,
+        0.476348
+      ],
+      "full_decode_verified": true
+    },
+    {
+      "source": "media/results/videos-new/target-set-03-cart-2-rollout-00-grasp_ranking-ranked-pose-2.mp4",
+      "output": "media/results/videos-new-cropped/target-set-03-cart-2-rollout-00-grasp_ranking-ranked-pose-2.mp4",
+      "source_sha256": "0f249089307a524909454bfe35ace084634af53eef22ee6db802af4724d21807",
+      "output_sha256": "b90b7e01aee5d90e5632ac6eb1f4f1c1f34ec480f716a7bd733bdd780d8894dd",
+      "width": 800,
+      "height": 450,
+      "fps": 30.0,
+      "frames": 750,
+      "duration_seconds": 25.0,
+      "sample_frames": [
+        90,
+        375,
+        749
+      ],
+      "sample_mean_absolute_pixel_errors": [
+        0.551265,
+        0.464035,
+        0.49136
+      ],
+      "full_decode_verified": true
+    },
+    {
+      "source": "media/results/videos-new/target-set-03-cart-2-rollout-01-grasp_ranking-random-pose-1.mp4",
+      "output": "media/results/videos-new-cropped/target-set-03-cart-2-rollout-01-grasp_ranking-random-pose-1.mp4",
+      "source_sha256": "c47e15ada1503988a09397e25b88487d14fa8ce7eaa204da3949901fe278f24a",
+      "output_sha256": "a95aad6aaed28f5cd0945abe09e9a5d145d3bf71d1bc1041d11eb2416f435296",
+      "width": 800,
+      "height": 450,
+      "fps": 30.0,
+      "frames": 750,
+      "duration_seconds": 25.0,
+      "sample_frames": [
+        90,
+        375,
+        749
+      ],
+      "sample_mean_absolute_pixel_errors": [
+        0.500105,
+        0.420093,
+        0.509987
+      ],
+      "full_decode_verified": true
+    },
+    {
+      "source": "media/results/videos-new/target-set-03-cart-2-rollout-02-ppo0-fixed-pose-0.mp4",
+      "output": "media/results/videos-new-cropped/target-set-03-cart-2-rollout-02-ppo0-fixed-pose-0.mp4",
+      "source_sha256": "113779db7e2ade1bb1ae125526878216ca40ecbecd024710442ec76aa937edbc",
+      "output_sha256": "2e657aaf4285d60af2285e2af0ecd739d8ba4b8bcb319f9a1e2903cddd751d81",
+      "width": 800,
+      "height": 450,
+      "fps": 30.0,
+      "frames": 750,
+      "duration_seconds": 25.0,
+      "sample_frames": [
+        90,
+        375,
+        749
+      ],
+      "sample_mean_absolute_pixel_errors": [
+        0.526703,
+        0.498594,
+        0.582439
+      ],
+      "full_decode_verified": true
+    },
+    {
+      "source": "media/results/videos-new/target-set-03-cart-2-rollout-03-ppo1-fixed-pose-1.mp4",
+      "output": "media/results/videos-new-cropped/target-set-03-cart-2-rollout-03-ppo1-fixed-pose-1.mp4",
+      "source_sha256": "8cee9c19375954da45b9d16dd0c3455c034a38279e3af6b375bee9d5da442470",
+      "output_sha256": "6997b8272c9fd30a9eeebf9e0f5d82df7d5e6fab65deec07813483bff3d1a03b",
+      "width": 800,
+      "height": 450,
+      "fps": 30.0,
+      "frames": 750,
+      "duration_seconds": 25.0,
+      "sample_frames": [
+        90,
+        375,
+        749
+      ],
+      "sample_mean_absolute_pixel_errors": [
+        0.485026,
+        0.460602,
+        0.512129
+      ],
+      "full_decode_verified": true
+    },
+    {
+      "source": "media/results/videos-new/target-set-03-cart-2-rollout-04-ppo2-fixed-pose-2.mp4",
+      "output": "media/results/videos-new-cropped/target-set-03-cart-2-rollout-04-ppo2-fixed-pose-2.mp4",
+      "source_sha256": "675022e8fd7a665e54c2a97ae08c64179e197d27d649583274939cb44804fe5f",
+      "output_sha256": "4ec5e20234b94585e85519247bc563ab4b0f02962d4e178b4f224f700510304c",
+      "width": 800,
+      "height": 450,
+      "fps": 30.0,
+      "frames": 750,
+      "duration_seconds": 25.0,
+      "sample_frames": [
+        90,
+        375,
+        749
+      ],
+      "sample_mean_absolute_pixel_errors": [
+        0.517483,
+        0.465389,
+        0.526813
+      ],
+      "full_decode_verified": true
+    },
+    {
+      "source": "media/results/videos-new/target-set-03-walker-1-rollout-00-grasp_ranking-ranked-pose-1.mp4",
+      "output": "media/results/videos-new-cropped/target-set-03-walker-1-rollout-00-grasp_ranking-ranked-pose-1.mp4",
+      "source_sha256": "f10553607fbf8e018542d49bee9b2c4adb30df198a2a6bd36ca7518908c3cd4a",
+      "output_sha256": "ff034bcfa648e11d8f952ed62dfa79ca2c2a8ed86b0a5088e0aaea600bd24e39",
+      "width": 800,
+      "height": 450,
+      "fps": 30.0,
+      "frames": 750,
+      "duration_seconds": 25.0,
+      "sample_frames": [
+        90,
+        375,
+        749
+      ],
+      "sample_mean_absolute_pixel_errors": [
+        0.543733,
+        0.458165,
+        0.523795
+      ],
+      "full_decode_verified": true
+    },
+    {
+      "source": "media/results/videos-new/target-set-03-walker-1-rollout-01-grasp_ranking-random-pose-1.mp4",
+      "output": "media/results/videos-new-cropped/target-set-03-walker-1-rollout-01-grasp_ranking-random-pose-1.mp4",
+      "source_sha256": "a5d5df3ef10d117786207381a25e070de96f80f4c459a73599fe2e61f7bafd77",
+      "output_sha256": "781c9076758210a876bb8ae34dbd71d170c8710ed69b99d2ed3d6a86eb8efd79",
+      "width": 800,
+      "height": 450,
+      "fps": 30.0,
+      "frames": 750,
+      "duration_seconds": 25.0,
+      "sample_frames": [
+        90,
+        375,
+        749
+      ],
+      "sample_mean_absolute_pixel_errors": [
+        0.493445,
+        0.451807,
+        0.491531
+      ],
+      "full_decode_verified": true
+    },
+    {
+      "source": "media/results/videos-new/target-set-03-walker-1-rollout-02-ppo0-fixed-pose-0.mp4",
+      "output": "media/results/videos-new-cropped/target-set-03-walker-1-rollout-02-ppo0-fixed-pose-0.mp4",
+      "source_sha256": "996e385a03da9a38359a1cde755ac620aaad7fc6c6cf21710fc28eb5a492c824",
+      "output_sha256": "6fcd45f36d36b8f6f5f3324a45c19b56ea8637ea908894e9f29847e4ba0cae70",
+      "width": 800,
+      "height": 450,
+      "fps": 30.0,
+      "frames": 750,
+      "duration_seconds": 25.0,
+      "sample_frames": [
+        90,
+        375,
+        749
+      ],
+      "sample_mean_absolute_pixel_errors": [
+        0.457032,
+        0.414915,
+        0.491768
+      ],
+      "full_decode_verified": true
+    },
+    {
+      "source": "media/results/videos-new/target-set-03-walker-1-rollout-03-ppo1-fixed-pose-1.mp4",
+      "output": "media/results/videos-new-cropped/target-set-03-walker-1-rollout-03-ppo1-fixed-pose-1.mp4",
+      "source_sha256": "192dbb978a0ce991cadb9741e3526cb40f75b87d0ed06f65b785cd0339690a01",
+      "output_sha256": "46486d6f717172c7ef223bf7d5507b8ed3b6fe9e9be96386817e871fc6cda3f8",
+      "width": 800,
+      "height": 450,
+      "fps": 30.0,
+      "frames": 750,
+      "duration_seconds": 25.0,
+      "sample_frames": [
+        90,
+        375,
+        749
+      ],
+      "sample_mean_absolute_pixel_errors": [
+        0.494766,
+        0.451544,
+        0.510305
+      ],
+      "full_decode_verified": true
+    },
+    {
+      "source": "media/results/videos-new/target-set-03-walker-1-rollout-04-ppo2-fixed-pose-2.mp4",
+      "output": "media/results/videos-new-cropped/target-set-03-walker-1-rollout-04-ppo2-fixed-pose-2.mp4",
+      "source_sha256": "a77d3762c5ab4f5501c3fa391933e3f5d7d4461e27550730d4eef9be66fdc7c9",
+      "output_sha256": "78aab46b340467708893c0fec94416280b10f4fcb60610c7a685d83750d5c60d",
+      "width": 800,
+      "height": 450,
+      "fps": 30.0,
+      "frames": 750,
+      "duration_seconds": 25.0,
+      "sample_frames": [
+        90,
+        375,
+        749
+      ],
+      "sample_mean_absolute_pixel_errors": [
+        0.498523,
+        0.413057,
+        0.46461
+      ],
+      "full_decode_verified": true
+    },
+    {
+      "source": "media/results/videos-new/target-set-03-walker-2-rollout-00-grasp_ranking-ranked-pose-1.mp4",
+      "output": "media/results/videos-new-cropped/target-set-03-walker-2-rollout-00-grasp_ranking-ranked-pose-1.mp4",
+      "source_sha256": "4f2834ae60fa902fc82da9d3e55bb59658cad73ce4c949f78def56328026d893",
+      "output_sha256": "560c41ae70f48c0a12015c039d8b9e96a27514250ef5e8ddb4af0bc03ed6240c",
+      "width": 800,
+      "height": 450,
+      "fps": 30.0,
+      "frames": 750,
+      "duration_seconds": 25.0,
+      "sample_frames": [
+        90,
+        375,
+        749
+      ],
+      "sample_mean_absolute_pixel_errors": [
+        0.518468,
+        0.441323,
+        0.496663
+      ],
+      "full_decode_verified": true
+    },
+    {
+      "source": "media/results/videos-new/target-set-03-walker-2-rollout-01-grasp_ranking-random-pose-1.mp4",
+      "output": "media/results/videos-new-cropped/target-set-03-walker-2-rollout-01-grasp_ranking-random-pose-1.mp4",
+      "source_sha256": "1693d4c08662a80da2caa6d688f8f9c08693e133f6df0f24f9b454f408463332",
+      "output_sha256": "67d245446b7eae0121bb975680b7a98b71e46f03173796ff8d6fb3ddefcfcd47",
+      "width": 800,
+      "height": 450,
+      "fps": 30.0,
+      "frames": 750,
+      "duration_seconds": 25.0,
+      "sample_frames": [
+        90,
+        375,
+        749
+      ],
+      "sample_mean_absolute_pixel_errors": [
+        0.495751,
+        0.448441,
+        0.497416
+      ],
+      "full_decode_verified": true
+    },
+    {
+      "source": "media/results/videos-new/target-set-03-walker-2-rollout-02-ppo0-fixed-pose-0.mp4",
+      "output": "media/results/videos-new-cropped/target-set-03-walker-2-rollout-02-ppo0-fixed-pose-0.mp4",
+      "source_sha256": "d43d0aeaedd963737259706bfcbc1a712d156ca9c22fbe9cfd077283a30977bc",
+      "output_sha256": "028489b556093f3d9e9799a7c0ee680d74e533b9cdc96a8eae74764158d4fb02",
+      "width": 800,
+      "height": 450,
+      "fps": 30.0,
+      "frames": 750,
+      "duration_seconds": 25.0,
+      "sample_frames": [
+        90,
+        375,
+        749
+      ],
+      "sample_mean_absolute_pixel_errors": [
+        0.456854,
+        0.404031,
+        0.47445
+      ],
+      "full_decode_verified": true
+    },
+    {
+      "source": "media/results/videos-new/target-set-03-walker-2-rollout-03-ppo1-fixed-pose-1.mp4",
+      "output": "media/results/videos-new-cropped/target-set-03-walker-2-rollout-03-ppo1-fixed-pose-1.mp4",
+      "source_sha256": "fb67f960ab1f4cbe0990ca5cd1bc628ded8a5a2da8a9291dae93d5c665cabdad",
+      "output_sha256": "58bf2334428d710571f92b06a632ca3f93976a96b66a7bb55fe2172134181d2c",
+      "width": 800,
+      "height": 450,
+      "fps": 30.0,
+      "frames": 750,
+      "duration_seconds": 25.0,
+      "sample_frames": [
+        90,
+        375,
+        749
+      ],
+      "sample_mean_absolute_pixel_errors": [
+        0.480497,
+        0.45464,
+        0.466649
+      ],
+      "full_decode_verified": true
+    },
+    {
+      "source": "media/results/videos-new/target-set-03-walker-2-rollout-04-ppo2-fixed-pose-2.mp4",
+      "output": "media/results/videos-new-cropped/target-set-03-walker-2-rollout-04-ppo2-fixed-pose-2.mp4",
+      "source_sha256": "ac1ab95aedb11cf40fcf1d79ec047499bf698d3ee2c88ec86fcb59d1d8fdda61",
+      "output_sha256": "7688c3f0bb6551b43c569f588a5b0f402daa1dbba8fe1910cc033b72a2eaa1ac",
+      "width": 800,
+      "height": 450,
+      "fps": 30.0,
+      "frames": 750,
+      "duration_seconds": 25.0,
+      "sample_frames": [
+        90,
+        375,
+        749
+      ],
+      "sample_mean_absolute_pixel_errors": [
+        0.510539,
+        0.422952,
+        0.466733
+      ],
+      "full_decode_verified": true
+    },
+    {
+      "source": "media/results/videos-new/target-set-03-walker-3-rollout-00-grasp_ranking-ranked-pose-1.mp4",
+      "output": "media/results/videos-new-cropped/target-set-03-walker-3-rollout-00-grasp_ranking-ranked-pose-1.mp4",
+      "source_sha256": "a564460c53d8b8dbadf13a1ae48abf3c9330f83ef2ed6d3621a8e652c0823b6e",
+      "output_sha256": "644ec9172e344d8f88c36e213659f258d31d7a6c7e95c40aa3250cbe21692580",
+      "width": 800,
+      "height": 450,
+      "fps": 30.0,
+      "frames": 750,
+      "duration_seconds": 25.0,
+      "sample_frames": [
+        90,
+        375,
+        749
+      ],
+      "sample_mean_absolute_pixel_errors": [
+        0.53,
+        0.458621,
+        0.503698
+      ],
+      "full_decode_verified": true
+    },
+    {
+      "source": "media/results/videos-new/target-set-03-walker-3-rollout-01-grasp_ranking-random-pose-1.mp4",
+      "output": "media/results/videos-new-cropped/target-set-03-walker-3-rollout-01-grasp_ranking-random-pose-1.mp4",
+      "source_sha256": "c92464f59ca5558b9c7544ed2d99b6cb99c73cfeed18e19373cdaa589d2dca8a",
+      "output_sha256": "a5c731f406e969d2e19187207c020436245d03196055d131f79bc5bb4629574a",
+      "width": 800,
+      "height": 450,
+      "fps": 30.0,
+      "frames": 750,
+      "duration_seconds": 25.0,
+      "sample_frames": [
+        90,
+        375,
+        749
+      ],
+      "sample_mean_absolute_pixel_errors": [
+        0.477818,
+        0.465431,
+        0.527412
+      ],
+      "full_decode_verified": true
+    },
+    {
+      "source": "media/results/videos-new/target-set-03-walker-3-rollout-02-ppo0-fixed-pose-0.mp4",
+      "output": "media/results/videos-new-cropped/target-set-03-walker-3-rollout-02-ppo0-fixed-pose-0.mp4",
+      "source_sha256": "c604f92f497c9ef3bb8c3a5df536d5d6e898939108ae6d8bd8ba4d54bdc8a372",
+      "output_sha256": "ef0212d7fd07c6aad8b552836356df0593c4d9a9dc9447e9b1629f43512974d2",
+      "width": 800,
+      "height": 450,
+      "fps": 30.0,
+      "frames": 750,
+      "duration_seconds": 25.0,
+      "sample_frames": [
+        90,
+        375,
+        749
+      ],
+      "sample_mean_absolute_pixel_errors": [
+        0.451548,
+        0.40807,
+        0.477185
+      ],
+      "full_decode_verified": true
+    },
+    {
+      "source": "media/results/videos-new/target-set-03-walker-3-rollout-03-ppo1-fixed-pose-1.mp4",
+      "output": "media/results/videos-new-cropped/target-set-03-walker-3-rollout-03-ppo1-fixed-pose-1.mp4",
+      "source_sha256": "82e61547ee83458d3383c0a720178c0958c505f2708c36e6566a22f84e7d2c19",
+      "output_sha256": "2e15efba708013be96250ea195138bb6c8ff7777d15e15439e0584215c4677f9",
+      "width": 800,
+      "height": 450,
+      "fps": 30.0,
+      "frames": 750,
+      "duration_seconds": 25.0,
+      "sample_frames": [
+        90,
+        375,
+        749
+      ],
+      "sample_mean_absolute_pixel_errors": [
+        0.46827,
+        0.443477,
+        0.505585
+      ],
+      "full_decode_verified": true
+    },
+    {
+      "source": "media/results/videos-new/target-set-03-walker-3-rollout-04-ppo2-fixed-pose-2.mp4",
+      "output": "media/results/videos-new-cropped/target-set-03-walker-3-rollout-04-ppo2-fixed-pose-2.mp4",
+      "source_sha256": "d762ec51f8a2a158e168e4307776ffa980106bcf6896b1dced5abba9dc17aa1d",
+      "output_sha256": "55056cd7d8246dd35899bd1cf62aae8b675f3aed9ea52ae0e0397748e9d194c6",
+      "width": 800,
+      "height": 450,
+      "fps": 30.0,
+      "frames": 750,
+      "duration_seconds": 25.0,
+      "sample_frames": [
+        90,
+        375,
+        749
+      ],
+      "sample_mean_absolute_pixel_errors": [
+        0.505597,
+        0.41309,
+        0.450401
+      ],
+      "full_decode_verified": true
+    },
+    {
+      "source": "media/results/videos-new/target-set-04-cart-2-rollout-00-grasp_ranking-ranked-pose-2.mp4",
+      "output": "media/results/videos-new-cropped/target-set-04-cart-2-rollout-00-grasp_ranking-ranked-pose-2.mp4",
+      "source_sha256": "f3260dd6397f3a03ed5c91fd0258d479e6dc31916a2771d32b304eae08200667",
+      "output_sha256": "6a3c311b811e45d76f3c34296dea1e885ccb2649e4cd496f39e8b66c2a83998f",
+      "width": 800,
+      "height": 450,
+      "fps": 30.0,
+      "frames": 750,
+      "duration_seconds": 25.0,
+      "sample_frames": [
+        90,
+        375,
+        749
+      ],
+      "sample_mean_absolute_pixel_errors": [
+        0.558919,
+        0.430317,
+        0.507078
+      ],
+      "full_decode_verified": true
+    },
+    {
+      "source": "media/results/videos-new/target-set-04-cart-2-rollout-01-grasp_ranking-random-pose-0.mp4",
+      "output": "media/results/videos-new-cropped/target-set-04-cart-2-rollout-01-grasp_ranking-random-pose-0.mp4",
+      "source_sha256": "f64096d8a953bb5174c8cb787566eab33efbcf9c68f65162762a5520f693ab4b",
+      "output_sha256": "29408d708422a9dac3fb84ba1c43bb94c7821d01701f4e1468663adac71cfcb4",
+      "width": 800,
+      "height": 450,
+      "fps": 30.0,
+      "frames": 750,
+      "duration_seconds": 25.0,
+      "sample_frames": [
+        90,
+        375,
+        749
+      ],
+      "sample_mean_absolute_pixel_errors": [
+        0.544822,
+        0.463775,
+        0.515028
+      ],
+      "full_decode_verified": true
+    },
+    {
+      "source": "media/results/videos-new/target-set-04-cart-2-rollout-02-ppo0-fixed-pose-0.mp4",
+      "output": "media/results/videos-new-cropped/target-set-04-cart-2-rollout-02-ppo0-fixed-pose-0.mp4",
+      "source_sha256": "7a511789cb820a11b3c0a969cf5f78b32e889a0b3b34ea57f7e2b3a262a8eb42",
+      "output_sha256": "ca5b4d20b2afe1abcd29b14052cc49148809517e2d13b95588b7bea694547bc7",
+      "width": 800,
+      "height": 450,
+      "fps": 30.0,
+      "frames": 750,
+      "duration_seconds": 25.0,
+      "sample_frames": [
+        90,
+        375,
+        749
+      ],
+      "sample_mean_absolute_pixel_errors": [
+        0.555626,
+        0.471993,
+        0.468638
+      ],
+      "full_decode_verified": true
+    },
+    {
+      "source": "media/results/videos-new/target-set-04-cart-2-rollout-03-ppo1-fixed-pose-1.mp4",
+      "output": "media/results/videos-new-cropped/target-set-04-cart-2-rollout-03-ppo1-fixed-pose-1.mp4",
+      "source_sha256": "ef60d19f3fb88abd15d52339ab87649f8e6039055c937a6c00c6181e6ed607eb",
+      "output_sha256": "f34da5d3bea2d11928082a3d754742f139e7190db6c86bb655709134acdfd2cf",
+      "width": 800,
+      "height": 450,
+      "fps": 30.0,
+      "frames": 750,
+      "duration_seconds": 25.0,
+      "sample_frames": [
+        90,
+        375,
+        749
+      ],
+      "sample_mean_absolute_pixel_errors": [
+        0.498886,
+        0.432849,
+        0.486747
+      ],
+      "full_decode_verified": true
+    },
+    {
+      "source": "media/results/videos-new/target-set-04-cart-2-rollout-04-ppo2-fixed-pose-2.mp4",
+      "output": "media/results/videos-new-cropped/target-set-04-cart-2-rollout-04-ppo2-fixed-pose-2.mp4",
+      "source_sha256": "e0c1b1912210372b78140a4be7b656a4323fb6211538af81e9ffc20c8d4538c7",
+      "output_sha256": "6478855de90d8235767c8927522fb73b9ce28a8e7a4906c1273ca0f525d9e79f",
+      "width": 800,
+      "height": 450,
+      "fps": 30.0,
+      "frames": 750,
+      "duration_seconds": 25.0,
+      "sample_frames": [
+        90,
+        375,
+        749
+      ],
+      "sample_mean_absolute_pixel_errors": [
+        0.520523,
+        0.439106,
+        0.504993
+      ],
+      "full_decode_verified": true
+    },
+    {
+      "source": "media/results/videos-new/target-set-04-walker-1-rollout-00-grasp_ranking-ranked-pose-2.mp4",
+      "output": "media/results/videos-new-cropped/target-set-04-walker-1-rollout-00-grasp_ranking-ranked-pose-2.mp4",
+      "source_sha256": "526cac7698507d4d819fb7231dcb8745c22126ef24c1c0f8c0ddde7360863bef",
+      "output_sha256": "dad9883193bf1632070bfeeef5557f385410077ea3fc1d23b7d7dec8f7a451fd",
+      "width": 800,
+      "height": 450,
+      "fps": 30.0,
+      "frames": 750,
+      "duration_seconds": 25.0,
+      "sample_frames": [
+        90,
+        375,
+        749
+      ],
+      "sample_mean_absolute_pixel_errors": [
+        0.543955,
+        0.444756,
+        0.492495
+      ],
+      "full_decode_verified": true
+    },
+    {
+      "source": "media/results/videos-new/target-set-04-walker-1-rollout-01-grasp_ranking-random-pose-0.mp4",
+      "output": "media/results/videos-new-cropped/target-set-04-walker-1-rollout-01-grasp_ranking-random-pose-0.mp4",
+      "source_sha256": "0e98712f8d78a1350b70560124a837768bddcdc1f71f0a11a0fa7aaa15d98bea",
+      "output_sha256": "9d8bd41cd0748bcccacce80fa6b9ed489dcbb60acf77d0e2fe6d51e90d32eb3e",
+      "width": 800,
+      "height": 450,
+      "fps": 30.0,
+      "frames": 750,
+      "duration_seconds": 25.0,
+      "sample_frames": [
+        90,
+        375,
+        749
+      ],
+      "sample_mean_absolute_pixel_errors": [
+        0.467136,
+        0.413425,
+        0.446306
+      ],
+      "full_decode_verified": true
+    },
+    {
+      "source": "media/results/videos-new/target-set-04-walker-1-rollout-02-ppo0-fixed-pose-0.mp4",
+      "output": "media/results/videos-new-cropped/target-set-04-walker-1-rollout-02-ppo0-fixed-pose-0.mp4",
+      "source_sha256": "b29ff7ef435c51692e146c10eac1e33ae387f3ee1488875da1a903c41d6f6c4c",
+      "output_sha256": "7629b92ee7e9076fbaff2f11f0c25703aa13b06bfa51a9270e2cb724b7644247",
+      "width": 800,
+      "height": 450,
+      "fps": 30.0,
+      "frames": 750,
+      "duration_seconds": 25.0,
+      "sample_frames": [
+        90,
+        375,
+        749
+      ],
+      "sample_mean_absolute_pixel_errors": [
+        0.473204,
+        0.408609,
+        0.470488
+      ],
+      "full_decode_verified": true
+    },
+    {
+      "source": "media/results/videos-new/target-set-04-walker-1-rollout-03-ppo1-fixed-pose-1.mp4",
+      "output": "media/results/videos-new-cropped/target-set-04-walker-1-rollout-03-ppo1-fixed-pose-1.mp4",
+      "source_sha256": "310df28f06728a576587dceb3ad8a686909aeb453b737a25be629aae369dd72d",
+      "output_sha256": "fbff0d03e45bd91476008a8b48794b80601c8203a231824c146fb618a5973cea",
+      "width": 800,
+      "height": 450,
+      "fps": 30.0,
+      "frames": 750,
+      "duration_seconds": 25.0,
+      "sample_frames": [
+        90,
+        375,
+        749
+      ],
+      "sample_mean_absolute_pixel_errors": [
+        0.491521,
+        0.427203,
+        0.484604
+      ],
+      "full_decode_verified": true
+    },
+    {
+      "source": "media/results/videos-new/target-set-04-walker-1-rollout-04-ppo2-fixed-pose-2.mp4",
+      "output": "media/results/videos-new-cropped/target-set-04-walker-1-rollout-04-ppo2-fixed-pose-2.mp4",
+      "source_sha256": "de132bc5393926d5e751bc84babeb4fcdc98d45bfbac02e6c2f57060be3d7e30",
+      "output_sha256": "3cec22bcaba7454641a9ac16399de242a54ba07d56413bcadcde0e6fd5204fc2",
+      "width": 800,
+      "height": 450,
+      "fps": 30.0,
+      "frames": 750,
+      "duration_seconds": 25.0,
+      "sample_frames": [
+        90,
+        375,
+        749
+      ],
+      "sample_mean_absolute_pixel_errors": [
+        0.495294,
+        0.426577,
+        0.505571
+      ],
+      "full_decode_verified": true
+    },
+    {
+      "source": "media/results/videos-new/target-set-04-walker-2-rollout-00-grasp_ranking-ranked-pose-1.mp4",
+      "output": "media/results/videos-new-cropped/target-set-04-walker-2-rollout-00-grasp_ranking-ranked-pose-1.mp4",
+      "source_sha256": "7bf686a39a0b4036d9b8be3102bb26a77f2018646527bdc8168b2d0c53b5f025",
+      "output_sha256": "047685b4152b463b58a17e10e4599c0534d64e8b4caf73177c02cfd446f4ec47",
+      "width": 800,
+      "height": 450,
+      "fps": 30.0,
+      "frames": 750,
+      "duration_seconds": 25.0,
+      "sample_frames": [
+        90,
+        375,
+        749
+      ],
+      "sample_mean_absolute_pixel_errors": [
+        0.531636,
+        0.425618,
+        0.483182
+      ],
+      "full_decode_verified": true
+    },
+    {
+      "source": "media/results/videos-new/target-set-04-walker-2-rollout-01-grasp_ranking-random-pose-0.mp4",
+      "output": "media/results/videos-new-cropped/target-set-04-walker-2-rollout-01-grasp_ranking-random-pose-0.mp4",
+      "source_sha256": "a3f2965dcd31aadd5284079bd0a6950747d03c3d7f00e73239da6564204ff9d1",
+      "output_sha256": "3bf597168f1d4ec1fe035d0ea3d60e31e236d06141fc34995068056c30c21933",
+      "width": 800,
+      "height": 450,
+      "fps": 30.0,
+      "frames": 750,
+      "duration_seconds": 25.0,
+      "sample_frames": [
+        90,
+        375,
+        749
+      ],
+      "sample_mean_absolute_pixel_errors": [
+        0.421658,
+        0.432741,
+        0.461444
+      ],
+      "full_decode_verified": true
+    },
+    {
+      "source": "media/results/videos-new/target-set-04-walker-2-rollout-02-ppo0-fixed-pose-0.mp4",
+      "output": "media/results/videos-new-cropped/target-set-04-walker-2-rollout-02-ppo0-fixed-pose-0.mp4",
+      "source_sha256": "6cde07cf4c5d1a2eef13ccd767f33de0ff3f4459a857b756971f5b49bcee9989",
+      "output_sha256": "1cfc1e79877a5d619d45da6f3af385042f699f7eac2dd71b60f42db91812a05b",
+      "width": 800,
+      "height": 450,
+      "fps": 30.0,
+      "frames": 750,
+      "duration_seconds": 25.0,
+      "sample_frames": [
+        90,
+        375,
+        749
+      ],
+      "sample_mean_absolute_pixel_errors": [
+        0.449778,
+        0.426782,
+        0.458558
+      ],
+      "full_decode_verified": true
+    },
+    {
+      "source": "media/results/videos-new/target-set-04-walker-2-rollout-03-ppo1-fixed-pose-1.mp4",
+      "output": "media/results/videos-new-cropped/target-set-04-walker-2-rollout-03-ppo1-fixed-pose-1.mp4",
+      "source_sha256": "8296c8b14207b853f6f0c1bf4ce8336b379153e9e8958b7995cca7ec608e4f7b",
+      "output_sha256": "3c9956da977cbbab09cafc7c1ea46a3ce213a65877c3f4db2516cd509f46e801",
+      "width": 800,
+      "height": 450,
+      "fps": 30.0,
+      "frames": 750,
+      "duration_seconds": 25.0,
+      "sample_frames": [
+        90,
+        375,
+        749
+      ],
+      "sample_mean_absolute_pixel_errors": [
+        0.493506,
+        0.438116,
+        0.457917
+      ],
+      "full_decode_verified": true
+    },
+    {
+      "source": "media/results/videos-new/target-set-04-walker-2-rollout-04-ppo2-fixed-pose-2.mp4",
+      "output": "media/results/videos-new-cropped/target-set-04-walker-2-rollout-04-ppo2-fixed-pose-2.mp4",
+      "source_sha256": "1d224a80e2c8291265ebbd57f5759912ea0f231806b2e15163cac6cac108c1ae",
+      "output_sha256": "0f1210eeaf1b0d9bfb177353ce7be3a444033d210098f5ed5ae97f36075ad993",
+      "width": 800,
+      "height": 450,
+      "fps": 30.0,
+      "frames": 750,
+      "duration_seconds": 25.0,
+      "sample_frames": [
+        90,
+        375,
+        749
+      ],
+      "sample_mean_absolute_pixel_errors": [
+        0.478826,
+        0.426713,
+        0.474517
+      ],
+      "full_decode_verified": true
+    },
+    {
+      "source": "media/results/videos-new/target-set-04-walker-3-rollout-00-grasp_ranking-ranked-pose-2.mp4",
+      "output": "media/results/videos-new-cropped/target-set-04-walker-3-rollout-00-grasp_ranking-ranked-pose-2.mp4",
+      "source_sha256": "10d8ce14405c502aab8b726b3b675a2adfd7ad261288c0bab5973e7bc8c96042",
+      "output_sha256": "1c4a7db7d4cf852a6fa666a7add67298873f4a64453ed57243d122d012fd6267",
+      "width": 800,
+      "height": 450,
+      "fps": 30.0,
+      "frames": 750,
+      "duration_seconds": 25.0,
+      "sample_frames": [
+        90,
+        375,
+        749
+      ],
+      "sample_mean_absolute_pixel_errors": [
+        0.553435,
+        0.420744,
+        0.462268
+      ],
+      "full_decode_verified": true
+    },
+    {
+      "source": "media/results/videos-new/target-set-04-walker-3-rollout-01-grasp_ranking-random-pose-0.mp4",
+      "output": "media/results/videos-new-cropped/target-set-04-walker-3-rollout-01-grasp_ranking-random-pose-0.mp4",
+      "source_sha256": "5a9309a4808cb1658201a07a000ebe0e41caa2b19b8035547ef136c2e12214d5",
+      "output_sha256": "9834547488c56a5ac3f6056b48a996b088534681bbee6ac6cc449704e4aa5cd2",
+      "width": 800,
+      "height": 450,
+      "fps": 30.0,
+      "frames": 750,
+      "duration_seconds": 25.0,
+      "sample_frames": [
+        90,
+        375,
+        749
+      ],
+      "sample_mean_absolute_pixel_errors": [
+        0.451252,
+        0.410227,
+        0.445636
+      ],
+      "full_decode_verified": true
+    },
+    {
+      "source": "media/results/videos-new/target-set-04-walker-3-rollout-02-ppo0-fixed-pose-0.mp4",
+      "output": "media/results/videos-new-cropped/target-set-04-walker-3-rollout-02-ppo0-fixed-pose-0.mp4",
+      "source_sha256": "ebef2b392486ea2c93e36b3d48dcdc6844e368e5629c95184d953578e78d9111",
+      "output_sha256": "99a6dd655c3dbe67debda487d9bf3665348b285f6771aa281eb1ca88b6392e8b",
+      "width": 800,
+      "height": 450,
+      "fps": 30.0,
+      "frames": 750,
+      "duration_seconds": 25.0,
+      "sample_frames": [
+        90,
+        375,
+        749
+      ],
+      "sample_mean_absolute_pixel_errors": [
+        0.44115,
+        0.422846,
+        0.436126
+      ],
+      "full_decode_verified": true
+    },
+    {
+      "source": "media/results/videos-new/target-set-04-walker-3-rollout-03-ppo1-fixed-pose-1.mp4",
+      "output": "media/results/videos-new-cropped/target-set-04-walker-3-rollout-03-ppo1-fixed-pose-1.mp4",
+      "source_sha256": "e20c96575fa5351c25748174becdd57785cd187175e735a7d366437e60724e67",
+      "output_sha256": "3b7039cc8ebf968497cafa367b3ceb9746342dc833e80a9cef490b4e5eff48cf",
+      "width": 800,
+      "height": 450,
+      "fps": 30.0,
+      "frames": 750,
+      "duration_seconds": 25.0,
+      "sample_frames": [
+        90,
+        375,
+        749
+      ],
+      "sample_mean_absolute_pixel_errors": [
+        0.472533,
+        0.418736,
+        0.48094
+      ],
+      "full_decode_verified": true
+    },
+    {
+      "source": "media/results/videos-new/target-set-04-walker-3-rollout-04-ppo2-fixed-pose-2.mp4",
+      "output": "media/results/videos-new-cropped/target-set-04-walker-3-rollout-04-ppo2-fixed-pose-2.mp4",
+      "source_sha256": "c4852f7aadd2993f41b0dd2c1c8534e1586c63bf524221969ff205e600608440",
+      "output_sha256": "6c713d357c80b2709bb64b3f63a0e026ac2a6cb319952fcb7dcf03fe447f2400",
+      "width": 800,
+      "height": 450,
+      "fps": 30.0,
+      "frames": 750,
+      "duration_seconds": 25.0,
+      "sample_frames": [
+        90,
+        375,
+        749
+      ],
+      "sample_mean_absolute_pixel_errors": [
+        0.488066,
+        0.414085,
+        0.450287
+      ],
+      "full_decode_verified": true
+    }
+  ]
+}
