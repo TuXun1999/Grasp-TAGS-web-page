@@ -206,7 +206,7 @@
           <div class="content has-text-justified">
             <h3 class="title is-4">Dataset</h3>
             <p>
-              We construct a dataset of eight common large household objects from Fab: three chairs, two carts, and three buckets. These categories cover diverse geometric structures while remaining representative of the large-object rearrangement settings considered in this work.
+              We construct a dataset of 12 common large household objects from Fab: three chairs, three carts, three walkers, and three buckets. These categories cover diverse geometric structures while remaining representative of the large-object rearrangement settings considered in this work.
             </p>
             <p>
               For each object, we manually define feasible initial grasp configurations and compute their inverse-kinematics solutions. Chairs use candidate grasps on the two armrests and backrest; carts use the two sides of the basket and the handle; and buckets use their two edges.
@@ -216,9 +216,9 @@
       </div>
 
       <figure class="project-figure dataset-figure">
-        <img src="media/figures/dataset.jpg" alt="Eight household objects in the evaluation dataset: three chairs, two carts, and three buckets. Red dots mark predefined candidate grasp locations.">
+        <img src="media/figures/dataset.jpg" alt="Eight example household objects from the evaluation dataset: three chairs, two carts, and three buckets. Red dots mark predefined candidate grasp locations.">
         <figcaption>
-          Evaluation dataset and predefined candidate grasp locations (red). The dataset contains three chairs, two carts, and three buckets.
+          Examples from the evaluation dataset and predefined candidate grasp locations (red), showing three chairs, two carts, and three buckets.
         </figcaption>
       </figure>
 
@@ -308,7 +308,7 @@
               For Chair1, Grasp-TAGS reaches a 93.65% success rate, compared with 75.88% for random grasp selection and 70.09–78.20% for the individual single-grasp policies. The same trend is observed for the other objects, demonstrating that task-aware selection can outweigh the advantage of individually specialized policies.
             </p>
             <p>
-              The table below reports simulated large-object rearrangement results. <em>PPO<sub>i</sub></em> denotes policies trained for individual candidate grasps, with slash-separated values corresponding to each candidate (three for chairs and carts, two for buckets). Higher success rates are better; lower positional and angular errors are better.
+              The table below reports simulated large-object rearrangement results across 12 objects. <em>PPO<sub>i</sub></em> denotes policies trained for individual candidate grasps, with slash-separated values corresponding to each candidate (three for chairs, carts, and walkers, two for buckets). Higher success rates (↑) are better; lower positional and angular errors (↓) are better. Bold indicates the best result for each object and metric.
             </p>
           </div>
 
@@ -326,203 +326,303 @@
               <tbody>
                 <tr>
                   <th scope="rowgroup" rowspan="4">Chair1</th>
-                  <th class="metric" scope="row">Success rate (%)</th>
+                  <th class="metric" scope="row">Success rate (%) ↑</th>
                   <td class="values">70.09 / 75.46 / 78.20</td>
                   <td class="values">75.88</td>
-                  <td class="values">93.65</td>
+                  <td class="values"><strong>93.65</strong></td>
                 </tr>
                 <tr>
-                  <th class="metric" scope="row">Planar positional error</th>
+                  <th class="metric" scope="row">Planar positional error (m) ↓</th>
                   <td class="values">0.0292 / 0.0250 / 0.0366</td>
                   <td class="values">0.0281</td>
-                  <td class="values">0.0162</td>
+                  <td class="values"><strong>0.0162</strong></td>
                 </tr>
                 <tr>
-                  <th class="metric" scope="row">Angular error</th>
+                  <th class="metric" scope="row">Angular error (rad) ↓</th>
                   <td class="values">0.3571 / 0.2850 / 0.2802</td>
                   <td class="values">0.2407</td>
-                  <td class="values">0.0712</td>
+                  <td class="values"><strong>0.0712</strong></td>
                 </tr>
                 <tr>
-                  <th class="metric" scope="row">Keypoint angular error</th>
+                  <th class="metric" scope="row">Keypoint angular error (deg) ↓</th>
                   <td class="values">20.4597 / 16.3271 / 16.0567</td>
                   <td class="values">13.7906</td>
-                  <td class="values">4.0793</td>
+                  <td class="values"><strong>4.0793</strong></td>
                 </tr>
                 <tr>
                   <th scope="rowgroup" rowspan="4">Chair2</th>
-                  <th class="metric" scope="row">Success rate (%)</th>
+                  <th class="metric" scope="row">Success rate (%) ↑</th>
                   <td class="values">63.79 / 71.51 / 70.00</td>
                   <td class="values">60.28</td>
-                  <td class="values">84.72</td>
+                  <td class="values"><strong>84.72</strong></td>
                 </tr>
                 <tr>
-                  <th class="metric" scope="row">Planar positional error</th>
-                  <td class="values">0.0340 / 0.0161 / 0.0142</td>
+                  <th class="metric" scope="row">Planar positional error (m) ↓</th>
+                  <td class="values">0.0340 / 0.0161 / <strong>0.0142</strong></td>
                   <td class="values">0.0450</td>
                   <td class="values">0.0239</td>
                 </tr>
                 <tr>
-                  <th class="metric" scope="row">Angular error</th>
+                  <th class="metric" scope="row">Angular error (rad) ↓</th>
                   <td class="values">0.5268 / 0.3421 / 0.3732</td>
                   <td class="values">0.4382</td>
-                  <td class="values">0.1308</td>
+                  <td class="values"><strong>0.1308</strong></td>
                 </tr>
                 <tr>
-                  <th class="metric" scope="row">Keypoint angular error</th>
+                  <th class="metric" scope="row">Keypoint angular error (deg) ↓</th>
                   <td class="values">30.1858 / 19.5889 / 21.3821</td>
                   <td class="values">25.1091</td>
-                  <td class="values">7.4923</td>
+                  <td class="values"><strong>7.4923</strong></td>
                 </tr>
                 <tr>
                   <th scope="rowgroup" rowspan="4">Chair3</th>
-                  <th class="metric" scope="row">Success rate (%)</th>
+                  <th class="metric" scope="row">Success rate (%) ↑</th>
                   <td class="values">75.93 / 68.41 / 72.22</td>
                   <td class="values">72.49</td>
-                  <td class="values">89.62</td>
+                  <td class="values"><strong>89.62</strong></td>
                 </tr>
                 <tr>
-                  <th class="metric" scope="row">Planar positional error</th>
-                  <td class="values">0.0204 / 0.0626 / 0.0307</td>
+                  <th class="metric" scope="row">Planar positional error (m) ↓</th>
+                  <td class="values"><strong>0.0204</strong> / 0.0626 / 0.0307</td>
                   <td class="values">0.0410</td>
                   <td class="values">0.0309</td>
                 </tr>
                 <tr>
-                  <th class="metric" scope="row">Angular error</th>
+                  <th class="metric" scope="row">Angular error (rad) ↓</th>
                   <td class="values">0.3546 / 0.4425 / 0.3628</td>
                   <td class="values">0.3616</td>
-                  <td class="values">0.1212</td>
+                  <td class="values"><strong>0.1212</strong></td>
                 </tr>
                 <tr>
-                  <th class="metric" scope="row">Keypoint angular error</th>
+                  <th class="metric" scope="row">Keypoint angular error (deg) ↓</th>
                   <td class="values">20.3148 / 25.3516 / 20.7884</td>
                   <td class="values">20.7177</td>
-                  <td class="values">6.9462</td>
+                  <td class="values"><strong>6.9462</strong></td>
                 </tr>
                 <tr>
                   <th scope="rowgroup" rowspan="4">Cart1</th>
-                  <th class="metric" scope="row">Success rate (%)</th>
+                  <th class="metric" scope="row">Success rate (%) ↑</th>
                   <td class="values">82.13 / 68.48 / 67.38</td>
                   <td class="values">84.62</td>
-                  <td class="values">95.51</td>
+                  <td class="values"><strong>95.51</strong></td>
                 </tr>
                 <tr>
-                  <th class="metric" scope="row">Planar positional error</th>
+                  <th class="metric" scope="row">Planar positional error (m) ↓</th>
                   <td class="values">0.0291 / 0.0989 / 0.0924</td>
                   <td class="values">0.0426</td>
-                  <td class="values">0.0283</td>
+                  <td class="values"><strong>0.0283</strong></td>
                 </tr>
                 <tr>
-                  <th class="metric" scope="row">Angular error</th>
+                  <th class="metric" scope="row">Angular error (rad) ↓</th>
                   <td class="values">0.1716 / 0.2522 / 0.3781</td>
                   <td class="values">0.1471</td>
-                  <td class="values">0.0575</td>
+                  <td class="values"><strong>0.0575</strong></td>
                 </tr>
                 <tr>
-                  <th class="metric" scope="row">Keypoint angular error</th>
+                  <th class="metric" scope="row">Keypoint angular error (deg) ↓</th>
                   <td class="values">9.8312 / 14.5265 / 20.9177</td>
                   <td class="values">8.4009</td>
-                  <td class="values">3.2925</td>
+                  <td class="values"><strong>3.2925</strong></td>
                 </tr>
                 <tr>
                   <th scope="rowgroup" rowspan="4">Cart2</th>
-                  <th class="metric" scope="row">Success rate (%)</th>
-                  <td class="values">62.96 / 81.32 / 72.75</td>
-                  <td class="values">64.38</td>
-                  <td class="values">86.89</td>
+                  <th class="metric" scope="row">Success rate (%) ↑</th>
+                  <td class="values">84.67 / 87.04 / 84.16</td>
+                  <td class="values">80.40</td>
+                  <td class="values"><strong>96.58</strong></td>
                 </tr>
                 <tr>
-                  <th class="metric" scope="row">Planar positional error</th>
-                  <td class="values">0.0901 / 0.0235 / 0.0762</td>
+                  <th class="metric" scope="row">Planar positional error (m) ↓</th>
+                  <td class="values">0.0130 / 0.0072 / 0.0099</td>
+                  <td class="values">0.0141</td>
+                  <td class="values"><strong>0.0052</strong></td>
+                </tr>
+                <tr>
+                  <th class="metric" scope="row">Angular error (rad) ↓</th>
+                  <td class="values">0.1258 / 0.1500 / 0.1688</td>
+                  <td class="values">0.1997</td>
+                  <td class="values"><strong>0.0398</strong></td>
+                </tr>
+                <tr>
+                  <th class="metric" scope="row">Keypoint angular error (deg) ↓</th>
+                  <td class="values">7.2056 / 8.5944 / 9.6728</td>
+                  <td class="values">11.4406</td>
+                  <td class="values"><strong>2.2811</strong></td>
+                </tr>
+                <tr>
+                  <th scope="rowgroup" rowspan="4">Cart3</th>
+                  <th class="metric" scope="row">Success rate (%) ↑</th>
+                  <td class="values">62.96 / 81.32 / 72.75</td>
+                  <td class="values">64.38</td>
+                  <td class="values"><strong>86.89</strong></td>
+                </tr>
+                <tr>
+                  <th class="metric" scope="row">Planar positional error (m) ↓</th>
+                  <td class="values">0.0901 / <strong>0.0235</strong> / 0.0762</td>
                   <td class="values">0.1158</td>
                   <td class="values">0.0551</td>
                 </tr>
                 <tr>
-                  <th class="metric" scope="row">Angular error</th>
+                  <th class="metric" scope="row">Angular error (rad) ↓</th>
                   <td class="values">0.4028 / 0.3335 / 0.3844</td>
                   <td class="values">0.3710</td>
-                  <td class="values">0.1321</td>
+                  <td class="values"><strong>0.1321</strong></td>
                 </tr>
                 <tr>
-                  <th class="metric" scope="row">Keypoint angular error</th>
+                  <th class="metric" scope="row">Keypoint angular error (deg) ↓</th>
                   <td class="values">23.0807 / 19.1110 / 22.0228</td>
                   <td class="values">21.2587</td>
-                  <td class="values">7.5734</td>
+                  <td class="values"><strong>7.5734</strong></td>
+                </tr>
+                <tr>
+                  <th scope="rowgroup" rowspan="4">Walker1</th>
+                  <th class="metric" scope="row">Success rate (%) ↑</th>
+                  <td class="values">91.65 / 87.77 / 87.08</td>
+                  <td class="values">86.23</td>
+                  <td class="values"><strong>97.51</strong></td>
+                </tr>
+                <tr>
+                  <th class="metric" scope="row">Planar positional error (m) ↓</th>
+                  <td class="values">0.0069 / 0.0067 / 0.0079</td>
+                  <td class="values">0.0099</td>
+                  <td class="values"><strong>0.0058</strong></td>
+                </tr>
+                <tr>
+                  <th class="metric" scope="row">Angular error (rad) ↓</th>
+                  <td class="values">0.0739 / 0.1198 / 0.1034</td>
+                  <td class="values">0.1396</td>
+                  <td class="values"><strong>0.0354</strong></td>
+                </tr>
+                <tr>
+                  <th class="metric" scope="row">Keypoint angular error (deg) ↓</th>
+                  <td class="values">4.2326 / 6.8656 / 5.9251</td>
+                  <td class="values">7.9977</td>
+                  <td class="values"><strong>2.0273</strong></td>
+                </tr>
+                <tr>
+                  <th scope="rowgroup" rowspan="4">Walker2</th>
+                  <th class="metric" scope="row">Success rate (%) ↑</th>
+                  <td class="values">77.91 / 72.78 / 81.13</td>
+                  <td class="values">75.59</td>
+                  <td class="values"><strong>97.88</strong></td>
+                </tr>
+                <tr>
+                  <th class="metric" scope="row">Planar positional error (m) ↓</th>
+                  <td class="values">0.0118 / 0.0126 / 0.0096</td>
+                  <td class="values">0.0209</td>
+                  <td class="values"><strong>0.0049</strong></td>
+                </tr>
+                <tr>
+                  <th class="metric" scope="row">Angular error (rad) ↓</th>
+                  <td class="values">0.3503 / 0.4174 / 0.3518</td>
+                  <td class="values">0.3211</td>
+                  <td class="values"><strong>0.0336</strong></td>
+                </tr>
+                <tr>
+                  <th class="metric" scope="row">Keypoint angular error (deg) ↓</th>
+                  <td class="values">20.0693 / 23.9176 / 17.8667</td>
+                  <td class="values">18.3966</td>
+                  <td class="values"><strong>1.9253</strong></td>
+                </tr>
+                <tr>
+                  <th scope="rowgroup" rowspan="4">Walker3</th>
+                  <th class="metric" scope="row">Success rate (%) ↑</th>
+                  <td class="values">84.06 / 78.17 / 80.15</td>
+                  <td class="values">82.18</td>
+                  <td class="values"><strong>93.78</strong></td>
+                </tr>
+                <tr>
+                  <th class="metric" scope="row">Planar positional error (m) ↓</th>
+                  <td class="values">0.0144 / 0.0190 / <strong>0.0076</strong></td>
+                  <td class="values">0.0195</td>
+                  <td class="values">0.0220</td>
+                </tr>
+                <tr>
+                  <th class="metric" scope="row">Angular error (rad) ↓</th>
+                  <td class="values">0.1474 / 0.1865 / 0.1188</td>
+                  <td class="values">0.1628</td>
+                  <td class="values"><strong>0.0521</strong></td>
+                </tr>
+                <tr>
+                  <th class="metric" scope="row">Keypoint angular error (deg) ↓</th>
+                  <td class="values">8.4469 / 10.6842 / 10.7756</td>
+                  <td class="values">9.3299</td>
+                  <td class="values"><strong>2.9853</strong></td>
                 </tr>
                 <tr>
                   <th scope="rowgroup" rowspan="4">Bucket1</th>
-                  <th class="metric" scope="row">Success rate (%)</th>
+                  <th class="metric" scope="row">Success rate (%) ↑</th>
                   <td class="values">88.89 / 86.18</td>
                   <td class="values">81.86</td>
-                  <td class="values">92.58</td>
+                  <td class="values"><strong>92.58</strong></td>
                 </tr>
                 <tr>
-                  <th class="metric" scope="row">Planar positional error</th>
-                  <td class="values">0.0101 / 0.0280</td>
+                  <th class="metric" scope="row">Planar positional error (m) ↓</th>
+                  <td class="values"><strong>0.0101</strong> / 0.0280</td>
                   <td class="values">0.0201</td>
                   <td class="values">0.0138</td>
                 </tr>
                 <tr>
-                  <th class="metric" scope="row">Angular error</th>
+                  <th class="metric" scope="row">Angular error (rad) ↓</th>
                   <td class="values">0.1428 / 0.2250</td>
                   <td class="values">0.2455</td>
-                  <td class="values">0.1279</td>
+                  <td class="values"><strong>0.1279</strong></td>
                 </tr>
                 <tr>
-                  <th class="metric" scope="row">Keypoint angular error</th>
+                  <th class="metric" scope="row">Keypoint angular error (deg) ↓</th>
                   <td class="values">8.1790 / 12.8935</td>
                   <td class="values">14.0673</td>
-                  <td class="values">7.3268</td>
+                  <td class="values"><strong>7.3268</strong></td>
                 </tr>
                 <tr>
                   <th scope="rowgroup" rowspan="4">Bucket2</th>
-                  <th class="metric" scope="row">Success rate (%)</th>
+                  <th class="metric" scope="row">Success rate (%) ↑</th>
                   <td class="values">76.10 / 81.08</td>
                   <td class="values">82.23</td>
-                  <td class="values">91.87</td>
+                  <td class="values"><strong>91.87</strong></td>
                 </tr>
                 <tr>
-                  <th class="metric" scope="row">Planar positional error</th>
+                  <th class="metric" scope="row">Planar positional error (m) ↓</th>
                   <td class="values">0.0219 / 0.0220</td>
                   <td class="values">0.0144</td>
-                  <td class="values">0.0105</td>
+                  <td class="values"><strong>0.0105</strong></td>
                 </tr>
                 <tr>
-                  <th class="metric" scope="row">Angular error</th>
+                  <th class="metric" scope="row">Angular error (rad) ↓</th>
                   <td class="values">0.3370 / 0.2490</td>
                   <td class="values">0.2822</td>
-                  <td class="values">0.1343</td>
+                  <td class="values"><strong>0.1343</strong></td>
                 </tr>
                 <tr>
-                  <th class="metric" scope="row">Keypoint angular error</th>
+                  <th class="metric" scope="row">Keypoint angular error (deg) ↓</th>
                   <td class="values">19.3076 / 14.2670</td>
                   <td class="values">16.1711</td>
-                  <td class="values">7.6976</td>
+                  <td class="values"><strong>7.6976</strong></td>
                 </tr>
                 <tr>
                   <th scope="rowgroup" rowspan="4">Bucket3</th>
-                  <th class="metric" scope="row">Success rate (%)</th>
+                  <th class="metric" scope="row">Success rate (%) ↑</th>
                   <td class="values">79.91 / 70.00</td>
                   <td class="values">70.85</td>
-                  <td class="values">83.89</td>
+                  <td class="values"><strong>83.89</strong></td>
                 </tr>
                 <tr>
-                  <th class="metric" scope="row">Planar positional error</th>
-                  <td class="values">0.0258 / 0.0265</td>
+                  <th class="metric" scope="row">Planar positional error (m) ↓</th>
+                  <td class="values"><strong>0.0258</strong> / 0.0265</td>
                   <td class="values">0.0689</td>
                   <td class="values">0.0290</td>
                 </tr>
                 <tr>
-                  <th class="metric" scope="row">Angular error</th>
+                  <th class="metric" scope="row">Angular error (rad) ↓</th>
                   <td class="values">0.2598 / 0.3199</td>
                   <td class="values">0.3609</td>
-                  <td class="values">0.2276</td>
+                  <td class="values"><strong>0.2276</strong></td>
                 </tr>
                 <tr>
-                  <th class="metric" scope="row">Keypoint angular error</th>
+                  <th class="metric" scope="row">Keypoint angular error (deg) ↓</th>
                   <td class="values">14.8877 / 18.3309</td>
                   <td class="values">20.6764</td>
-                  <td class="values">13.0426</td>
+                  <td class="values"><strong>13.0426</strong></td>
                 </tr>
               </tbody>
             </table>
